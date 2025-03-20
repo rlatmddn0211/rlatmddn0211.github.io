@@ -1074,9 +1074,9 @@ train_model(linear_model,20)
 		0.9697 0.9721 0.9736 0.9751 0.9756 0.9765 0.9775 0.978 0.9785 0.9785 
 ```
 
-fastai는 train_model 함수 대신 사용할 수 있는 [Learner.fit](http://Learner.fit) 제공
+fastai는 train_model 함수 대신 사용할 수 있는 [Learner.fit](https://docs.fast.ai/learner.html) 제공
 
-DataLoaders 생성 → Learner 생성 → [Learner.fit](http://Learner.fit) 사용가능
+DataLoaders 생성 → Learner 생성 → [Learner.fit](https://docs.fast.ai/learner.html) 사용가능
 
 ```python
 
@@ -1227,7 +1227,7 @@ learn.fit_one_cycle(1,0.1)
         - 미니배치 → 데이터를 나누어 학습하여 효율적인 모델학습, 과적합 방지, 메모리 효율성
 - 만든 (경사하강법)단계의 Optimizer 생성
     - 위에서 진행한 경사하강법 단계를 객체로 생성
-    - [Learner.fit](http://Learner.fit) 사용해보기
+    - [Learner.fit](https://docs.fast.ai/learner.html) 사용해보기
 - 복잡한 문제를 해결하기 위해 선형 모델에 비선형성 추가
     - 은닉층 (활성화함수)
         - 데이터 변환을 통해 비선형성 추가 (활성화함수 ex. ReLU, sigmoid ..)
