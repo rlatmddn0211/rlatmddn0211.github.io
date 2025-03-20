@@ -15,8 +15,6 @@ categories: fastai&PyTorch,DeepLearning
 
 
 
-
-
 딥러닝
 
 - 여러 계층의 인공신경망을 사용하여 데이터를 추출하고 변형하는 기법
