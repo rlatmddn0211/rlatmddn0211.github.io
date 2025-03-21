@@ -3,6 +3,7 @@ layout: post
 title: "fastai & PyTorch (1~3)"
 date: 2025-01-11 14:00:00 +0900
 categories: fastai&PyTorch,DeepLearning
+tags: fastai,DeepLearning,PyTorch
 ---
 
 # fastai & PyTorch (1~3)

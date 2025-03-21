@@ -3,6 +3,7 @@ layout: post
 title: "fastai & PyTorch (4) 딥러닝"
 date: 2025-01-29 14:00:00 +0900
 categories: fastai&PyTorch,DeepLearning
+tags: fastai,DeepLearning,PyTorch
 ---
 
 # Chapter 4, Fastai Application
