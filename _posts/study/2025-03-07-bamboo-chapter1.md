@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DeepLearning_스터디_Chapter 1&2"
+title: "DeepLearning Study Chapter 1&2"
 date: 2025-03-07 14:00:00 +0900
 categories: Study,DeepLearning
 tags : DeepLearning,Python
@@ -143,7 +143,7 @@ plt.show()
 - 다수의 신호를 입력으로 받아 하나의 신호를 출력
 - 퍼셉트론 신호는 ‘흐른다/안 흐른다’(0 or 1)의 두 가지 값을 가질 수 있다.
 
-![](/assets/bamboo_1/image%200.png)
+![](/assets/bamboo_1/image0.png)
 
 - 입력으로 2개의 신호를 받은 퍼셉트론의 예시
 - x1,x2는 입력 신호, w1,w2는 가중치를 뜻한다.
@@ -152,7 +152,7 @@ plt.show()
 - 뉴런에서 보내온 신호의 총합이 정해진 한계를 넘어설 때만 1을 출력
     - 정해진 한계 → 임계값 θ
 
-![](/assets/bamboo_1/image%201.png)
+![](/assets/bamboo_1/image1.png)
 
 - 퍼셉트론 동작원리의 수식 표현
 
@@ -160,19 +160,19 @@ plt.show()
 
 1. AND 게이트
 
-![](/assets/bamboo_1/image%202.png)
+![](/assets/bamboo_1/image2.png)
 
 - 만약 해당 AND 진리표를 표현하고 싶다면 각 입력값에 해당하는 가중치, 그리고 임계값을 정해야한다.
     - ex) (0.5, 0.5, 0.7), (0.5, 0.5, 0.7)과 같이 x1, x2 모두 1일때만 가중 신호의 총합이 주어진 임계값을 웃돈다.
 1. NAND 게이트 
 
-![](/assets/bamboo_1/image%203.png)
+![](/assets/bamboo_1/image3.png)
 
 - AND 게이트에 NOT 을 붙인 것으로써, 앞서 본 AND 게이트의 진리표와 반대이다.
     - ex) (-0.5,-0.5,-0.7) 과 같은 조합이 있다. ( AND 게이트를 구현하는 매개변수의 부호를 모두 반전하면 얻을 수 있다.
 1. OR 게이트
 
-![](/assets/bamboo_1/image%204.png)
+![](/assets/bamboo_1/image4.png)
 
 - x1 과 x2중  1개 이상이 1이면 출력이 1이 된다.
     - ex) (1,1,1)이  예시로 있다.
@@ -250,17 +250,17 @@ AND, NAND, OR 3가지 논리 회로를 구현할 수 있었다.
 - XOR 게이트는 배타적 논리합이라는 논리 회로 (배타적 → 자기 외에는 거부한다)
 - x1과 x2 중 한쪽이 1일 때만 1을 출력한다.
 
-![](/assets/bamboo_1/image%205.png)
+![](/assets/bamboo_1/image5.png)
 
 이와 같은 XOR 게이트를 구현하기 위해선 가중치와 편향을 어떻게 구현해야할까?
 
-![](/assets/bamboo_1/image%206.png)
+![](/assets/bamboo_1/image6.png)
 
 - 1로 표현해야하는 값들을 세모로 표시하고, 0의 값들을 동그라미로 표현했다면 다음과 같은 그래프를 어떻게 직선 1개로 나눌 수 있을까? → 불가능하다.
 
 만약 직선이라는 조건이 사라진다면? → 구분하는 것이 가능하다.
 
-![](/assets/bamboo_1/image%207.png)
+![](/assets/bamboo_1/image7.png)
 
 - 다음과 같은 곡선에서 곡선의 영역을 비선형 영역, 직선의 영역을 선형 영역이라고 한다.
 
@@ -271,15 +271,15 @@ AND, NAND, OR 3가지 논리 회로를 구현할 수 있었다.
 
 앞서 해결해본 AND, NAND, OR 게이트를 조합하여 만들어 볼 것이다.
 
-![](/assets/bamboo_1/image%208.png)
+![](/assets/bamboo_1/image8.png)
 
 각각의 게이트를 다음과 같이 표현해볼 수 있고, 위의 기호에서 ◦ 는 출력을 반전하는 뜻을 가지고 있다.
 
-![](/assets/bamboo_1/image%209.png)
+![](/assets/bamboo_1/image9.png)
 
 다음 사진의 ? 에 AND, NAND, OR을 각각 1개씩 대입하여 XOR을 완성할 수 있다.
 
-![](/assets/bamboo_1/image%210.png)
+![](/assets/bamboo_1/image10.png)
 
 다음과 같이 S1, S2에 각각 NAND, OR 그리고 마지막에 AND 게이트를 조합하면 XOR 게이트를 구현할 수 있다.
 
@@ -300,7 +300,7 @@ def XOR(x1,x2):
     return y
 ```
 
-![](/assets/bamboo_1/image%211.png)
+![](/assets/bamboo_1/image11.png)
 
 XOR는 다음과 같은 다층 구조의 네트워크이다.
 
