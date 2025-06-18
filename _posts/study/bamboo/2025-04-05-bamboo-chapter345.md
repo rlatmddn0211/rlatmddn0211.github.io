@@ -613,7 +613,7 @@ MNIST 데이터셋을 활용.
 
 훈련 이미지들을 사용하여 모델 학습 → 학습한 모델로 시험 이미지들을 얼마나 정확하게 분류하는지 평가
 
-[mnist.py](http://mnist.py) 파일에 정의된 load_mnist() 함수를 이용하여 MNIST 데이터를 가져온다.
+mnist.py 파일에 정의된 load_mnist() 함수를 이용하여 MNIST 데이터를 가져온다.
 
 load_mnist() 함수의 인수로는 normalize, flatten, one_hot_label 3가지를 설정할 수 있다.
 
