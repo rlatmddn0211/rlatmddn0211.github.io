@@ -144,7 +144,7 @@ KoBERT는 데이터를 어떻게 나누는가?
 - 입력단위 : Sentence Piece 토크나이저를 사용한 subword 단위
     - 한국어의 언어적 특성과 문법 구조에 맞는 subword 분절 방식 사용
         
-        ![](/assets/AI+X/mid_2/image410.png)
+        ![](/assets/AI+X/mid_2/image10.png)
         
 
 전체적인 과정
