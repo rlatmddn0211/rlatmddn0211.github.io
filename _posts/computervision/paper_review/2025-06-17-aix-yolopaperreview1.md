@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A COMPREHENSIVE REVIEW OF YOLO ARCHITECTURES IN COMPUTER VISION: FROM YOLOV1 TO YOLOV8 AND YOLO-NAS"
+title: "Paper Review about YOLO (You Only Look Once)"
 date: 2025-06-17 14:00:00 +0900
 categories: Paper_Review
 tags: [
