@@ -6,8 +6,10 @@ categories: AI+X선도인재양성프로젝트
 tags: [
     AI+X프로젝트,EDA, Modeling, BERT, KoBERT, Python
 ]
-pin: false 
+pin: false
+excerpt: "낚시성"
 ---
+
 
 # AI+X 중급 프로젝트_2
 
