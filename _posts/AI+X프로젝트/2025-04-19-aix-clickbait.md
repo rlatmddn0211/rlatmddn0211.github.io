@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AI+X 선도인재양성프로젝트 중급 <낚시성 기사 판별 서비스> "
+title: "AI+X 선도인재양성프로젝트 [Click-Bait Article Detection] "
 date: 2025-04-19 14:00:00 +0900
 categories: AI+X선도인재양성프로젝트
 tags: [
