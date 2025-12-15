@@ -814,7 +814,7 @@ def sigmoid(x): return 1/(1+torch.exp(-x))
 plot_function(torch.sigmoid, title='Sigmoid', min=-4, max=4)
 ```
 
-![](/assets/fastai-1/13.png)
+![](/assets/fastai-1/12.png)
 
 - 입력값은 음수부터 양수까지 제한이 없지만, 출력값은 0과 1 사이이다.
 - SGD가 의미있는 기울기를 더 쉽게 찾도록 해준다.
@@ -1153,7 +1153,6 @@ learn.fit(40,0.1) # epoch:40, lr(학습률):0.1
 
 ![](/assets/fastai-1/14.png)
 
-![](/assets/fastai-1/15.png)
 
 ```python
 # 학습과정은 learn.recorder에 기록된다.
