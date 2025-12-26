@@ -15,7 +15,10 @@
 ## Features
 
 - AI+X 선도 인재 양성프로젝트
+- Vision Language Models
+- Multimodal
 - Computer Vision Object Detection
+
 
 
 ## 🔗 Live Site
